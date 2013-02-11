@@ -3,7 +3,7 @@ use warnings;
 
 package XT;
 
-# ABSTRACT:
+# ABSTRACT: A viral platform for content aggregation and world domination
 
 use Moose;
 
