@@ -25,9 +25,10 @@ In simple terms:
 - "hot" content is delivered to a "hot" page.  
 - everyone benefits
 
-# AUTHOR
+# AUTHORS
 
-Kent Fredric <kentfredric@gmail.com>
+- Kent Fredric <kentfredric@gmail.com>
+- Torsten Raudssus <getty@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
