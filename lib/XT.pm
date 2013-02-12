@@ -35,9 +35,16 @@ In simple terms:
 
 =cut
 
-use Moose;
+use Web::Simple 'XT';
 
-__PACKAGE__->meta->make_immutable;
-no Moose;
+require XT::Controller::JSON;
 
-1;
+sub dispatch_request {
+  return (
+    '/json...' => sub {
+      XT::Controller::JSON->dispatch_request(@_);
+    },
+  );
+}
+
+__PACKAGE__->run_if_script;
